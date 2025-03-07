@@ -12,7 +12,7 @@ class Engineer extends Employee {
 }
 
 // Driver Class
-class Gfg {
+class gfg {
 
     public static void main(String args[]) {
         Engineer E1 = new Engineer();
