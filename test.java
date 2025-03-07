@@ -1,4 +1,3 @@
-
 class Bycyle {
 
     int gear;
@@ -28,10 +27,6 @@ class seatHeight extends Bycyle {
         super(gear, speed);
     }
 
-    
-
-    public seatHeight() {
-    }
 
     @Override
     public String toString() {
@@ -43,7 +38,7 @@ class seatHeight extends Bycyle {
 public class test {
 
     public static void main(String[] args) {
-        seatHeight s = new seatHeight(12,3,6);
+        seatHeight s = new seatHeight(12, 3, 6);
         System.out.println(s.toString());
     }
 }
